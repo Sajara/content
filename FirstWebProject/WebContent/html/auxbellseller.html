@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AUX BELL | Seller</title>
+</head>
+<body>
+<h1>Let's put your product up!</h1><br><br>
+<form>
+What are you selling?*<br>
+<select>
+       <option>Property</option>
+       <option>Car</option>
+       <option>Home Appliances</option>
+       <option>Books</option>
+       <option>Others</option>    
+</select><br><br>
+How old is the product you are selling?*(in months and years)<br>
+<input type="number" min="0" max="12" step="1" placeholder="mm" required="required">
+<input type="number" min="0" max="60" step="1" placeholder="yy" required="required"><br><br>
+Describe your product briefly*<br><br>
+<textarea rows="9" cols="40"></textarea><br><br>
+What is your minimum ask price?* 
+<input type="number" required="required"><br><br>
+At what price are you ready to sell the product?*
+<input type="number" required="required"><br><br>
+Would you want your contact to be public?*<br>
+<pre>
+yes <input type="radio" name="conpub" required="required">
+no  <input type="radio" name="conpub" required="required"><br><br></pre>
+How long would you like to keep this auction open(in days)?*
+<input type="number" min="1" max="30" step="1" required="required"><br><br>
+What mode of payment do you prefer?*
+<select>
+       <option>Net Banking</option>
+       <option>Cheque</option>
+       <option>Cash</option>
+       <option>DD</option>
+       <option>Others</option>    
+</select><br><br>
+Would you like to subscribe to our moderator services?<br>
+<pre>
+yes <input type="radio" name="moderator">
+no  <input type="radio" name="moderator"><br><br></pre>
+Do you want to become a platinum member?<br>
+<pre>
+yes <input type="radio" name="platinum">
+no  <input type="radio" name="platinum"><br><br></pre>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
