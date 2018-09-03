@@ -31,7 +31,7 @@ h4.large{
     background-color: yellow;
 }
 div {
-    height: 100px;
+   
     word-spacing: 10px;
     width: 40%;
     
@@ -55,7 +55,18 @@ div > h3{
     outline-style: dashed;
 }
 
+table, td, th {    
+    border: 1px solid #8080c0 ;
+    text-align: left;
+}
 
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
 
 
 
