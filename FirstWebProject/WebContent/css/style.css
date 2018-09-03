@@ -6,6 +6,7 @@ p{
 	}
 
 #reg{
+	display: inline;
 	text-decoration: blink;
 	text-align: right;
 	color: white;
@@ -19,15 +20,21 @@ p{
     font-size: 20px;text-decoration: underline;
     
 }
+h4.creg{
+	visibility: hidden;
+	color:green;
+}
+h4.large{
+	text-align: center;
+}
+* { 
+    background-color: yellow;
+}
 div {
     height: 100px;
     word-spacing: 10px;
     width: 40%;
-    background-color: powderblue;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
-    outline-style: dashed;
+    
 }
 a:link, a:visited {
     background-color: #808080;
@@ -40,3 +47,15 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: 	#C0C0C0;
 }
+div > h3{
+	background-color: powderblue;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    outline-style: dashed;
+}
+
+
+
+
+
