@@ -1,11 +1,12 @@
 
-p{
+#align{
 	text-align: center;
 	color: red;
 	text-decoration: line-through;
 	}
 
 #reg{
+	box-shadow: 10px 10px;
 	display: inline;
 	text-decoration: blink;
 	text-align: right;
@@ -26,16 +27,12 @@ h4.creg{
 }
 h4.large{
 	text-align: center;
+	
 }
 * { 
     background-color: yellow;
 }
-div {
-   
-    word-spacing: 10px;
-    width: 40%;
-    
-}
+
 a:link, a:visited {
     background-color: #808080;
     color: white;
@@ -53,6 +50,8 @@ div > h3{
     padding: 25px;
     margin: 25px;
     outline-style: dashed;
+  width:50%
+  
 }
 
 table, td, th {    
@@ -67,6 +66,48 @@ table {
 th, td {
     padding: 15px;
 }
+img.opac{
+	border-radius: 25px;
+	opacity:0.5;
+}
+
+div.back{
+	
+  background: url(../img/flower.jpg) ;
+  border: 2px solid black;
+  height:200px;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  
+}
+
+div.transbox p {
+
+	text-align : center;
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+div.polaroid {
+  width: 250px;
+  box-shadow: 10px 4px 8px 10px rgba(0, 0, 0, 0.2), 10px 6px 20px 10px rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.container {
+  padding: 10px;
+}
+
+div#rot {
+   
+    transform: rotate(30deg);
+}
+
 
 
 
