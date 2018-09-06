@@ -1,0 +1,113 @@
+
+#align{
+	text-align: center;
+	color: red;
+	text-decoration: line-through;
+	}
+
+#reg{
+	box-shadow: 10px 10px;
+	display: inline;
+	text-decoration: blink;
+	text-align: right;
+	color: white;
+    margin-left: 20px;text-transform: uppercase;
+}
+.creg{
+	text-shadow: 3px 2px red;
+	color:blue;
+	text-align: left;
+	 font-family: verdana;
+    font-size: 20px;text-decoration: underline;
+    
+}
+h4.creg{
+	visibility: hidden;
+	color:green;
+}
+h4.large{
+	text-align: center;
+	
+}
+* { 
+    background-color: yellow;
+}
+
+a:link, a:visited {
+    background-color: #808080;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: 	#C0C0C0;
+}
+div > h3{
+	background-color: powderblue;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    outline-style: dashed;
+  width:50%
+  
+}
+
+table, td, th {    
+    border: 1px solid #8080c0 ;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+img.opac{
+	border-radius: 25px;
+	opacity:0.5;
+}
+
+.back{
+	
+  background: url(../img/flower.jpg) ;
+  border: 2px solid black;
+  height:200px;
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  
+}
+
+.transbox p {
+
+	text-align : center;
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+.polaroid {
+  width: 250px;
+  box-shadow: 10px 4px 8px 10px rgba(0, 0, 0, 0.2), 10px 6px 20px 10px rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.container {
+  padding: 10px;
+}
+
+#rot {
+   
+    transform: rotate(30deg);
+}
+
+
+
+
