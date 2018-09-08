@@ -96,9 +96,16 @@ function checkdate()
 
 		console.log(curday('/'));
 		console.log(curday('-'));
-
 }
 
+function stringFunc(){
+	var str='Rajasri';
+	var num=33;
+	document.write(str.substr(4,3));
+	document.write(str.substring(4,7));
+	document.write(typeof(toString(num)));
+	
+}
 
 
 

@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    top: 5px;
+   right: -50;
+    margin-top: 78px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    top: 35px;
+    left: 100px;
+    
+}
+img{
+	border: 50px;
+	border-color: white;
+    border-width: 60px;
+}
